@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+
+}
+.header{
+  text-align: center;
+
+}
+
+.title{
+  text-align: left;
+  border-bottom: 2px solid #00000047;
+  font-size: 34px;
+  margin-bottom: 15px;
+}
+
+.rowflex{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.folders{
+  border: 2px solid rgba(86,45,88,0.28);
+  border-radius: 5px;
+  margin: 15px;
+  background: url(./PNG/folder.png) no-repeat scroll 2px 2px;
+  background-size: 50px;
+  height: 46px;
+  width: 180px;
+}
+.files{
+  border: 2px solid rgba(86,45,88,0.28);
+  border-radius: 5px;
+  margin: 15px;
+  background: url(./PNG/file.png) no-repeat scroll 2px 2px;
+  background-size: 32px;
+  height: 37px;
+  width: 200px;
+}
+
+.create{
+  display: grid;
+  justify-items: end;
+  margin-right: 15px;
+}
+
+h4{
+  margin-top: 15px;
+}
+
+button{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    line-height: 1px; 
+    padding: 15px; 
+    border-radius: 50px; 
+    font-family: "Times New Roman", Times, serif; 
+    font-weight: normal; text-decoration: none; 
+    font-style: normal; font-variant: normal; 
+    text-transform: none; 
+    background-image: radial-gradient(at center center, rgb(188, 247, 186) 0%, rgb(133, 203, 137) 0%, rgb(116, 231, 123) 100%); 
+    box-shadow: rgb(0, 0, 0) 3px 2px 15px 1px; 
+    border: 4px solid rgba(86, 45, 88, 0.28); 
+    display: inline-block;
+  }
+  button:hover {
+    background: #BCF7BA;
+   }
+  button:active {
+    background: #74E77B;
+   }
+.form{
+  margin: 8px;
+}
